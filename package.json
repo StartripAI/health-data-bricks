@@ -1,0 +1,45 @@
+{
+  "name": "health-data-bricks",
+  "version": "1.0.0",
+  "description": "AI-Native Health Data Infrastructure - Modular data bricks for health applications",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "lint": "eslint src/",
+    "mcp:start": "node dist/mcp/server.js"
+  },
+  "keywords": [
+    "health",
+    "fhir",
+    "ehr",
+    "wearables",
+    "apple-health",
+    "fitbit",
+    "garmin",
+    "mcp",
+    "ai",
+    "health-data",
+    "data-pipeline",
+    "analytics"
+  ],
+  "author": "StartripAI",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/StartripAI/health-data-bricks"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^4.3.0",
+    "zod": "^3.22.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.3.0",
+    "jest": "^29.0.0",
+    "@types/jest": "^29.0.0",
+    "ts-jest": "^29.0.0",
+    "eslint": "^8.0.0"
+  }
+}
